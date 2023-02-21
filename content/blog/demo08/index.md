@@ -1,18 +1,82 @@
 ---
 slug: demo-08
 date: 2010-10-05
-title: 'Lorem ipsum dolor sit amet'
-description: 'Ut elementum urna quis ex porta, eu porta ante porta. Curabitur a lectus fringilla, condimentum sem eu, efficitur ligula.'
+title: 'AKS effort estimation'
+description: 'Effort estimation for projects on AKS'
 published: true
 banner: './banner.png'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus sem non eros semper posuere. Quisque scelerisque non diam in fringilla. Praesent dignissim eros vel urna tincidunt pharetra. Fusce cursus, est quis vestibulum facilisis, elit diam convallis orci, eu convallis metus leo vitae massa. Mauris id nisi ut erat auctor fermentum. Sed purus nisl, hendrerit id suscipit sit amet, consectetur ut magna. Donec cursus accumsan lectus vel porta. Proin ac mollis arcu. Integer nec dictum sapien, dignissim semper dui. Quisque porta ipsum sit amet lorem feugiat tincidunt. Nam vel purus dolor. Donec semper tortor lacus, sed blandit sapien rutrum id. Fusce gravida tortor ultrices magna auctor, at bibendum est pellentesque. Vivamus porttitor ultrices varius.
+1. Prerequisites
 
-Phasellus nulla justo, auctor in ornare sit amet, volutpat at sapien. Donec non turpis nec ligula finibus finibus quis id lorem. Vestibulum sodales ornare lorem, sed dapibus justo sagittis non. Curabitur rutrum, eros quis iaculis commodo, sem turpis blandit quam, eu egestas risus nunc quis sapien. Aliquam erat volutpat. In leo massa, pellentesque non mollis ac, tristique vitae neque. Donec nunc magna, pharetra quis iaculis sit amet, molestie non est. Sed ornare urna id molestie convallis.
+Azure Enterprise Account
 
-Cras ut nulla pellentesque, convallis orci vel, ultricies augue. Cras imperdiet magna sit amet vestibulum dictum. Maecenas ac tortor vel nisl luctus blandit. Nunc bibendum commodo aliquet. Nunc urna tellus, sagittis vitae mollis vel, venenatis et lectus. Morbi lacus felis, fringilla a feugiat eget, imperdiet ac odio. Duis tortor tellus, vulputate eget arcu eget, pulvinar porta odio.
+2. Concept planning
 
-Cras tincidunt, massa vel pulvinar mollis, purus ex aliquam justo, at blandit turpis metus sit amet felis. Cras at nibh odio. Nulla ultrices metus sed est porta bibendum. Quisque efficitur nisl eget odio fringilla mollis. Vivamus vel lectus sem. Sed sit amet nisi aliquet, suscipit quam at, congue lacus. Pellentesque volutpat, ante ac mollis iaculis, est enim eleifend quam, id molestie est felis in sem. Nullam ac rutrum tortor, sed venenatis lectus. Nullam quis imperdiet urna. Integer mauris mi, tincidunt sit amet finibus eget, posuere eu leo. Fusce sodales convallis convallis. Pellentesque at augue id nulla convallis aliquam et id tellus. Praesent non nibh viverra odio mattis congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+Create high-level design and Technical design architecture documentation
 
-Curabitur aliquam hendrerit imperdiet. Sed fringilla dui velit, et suscipit diam bibendum vitae. Nulla eu ultricies tellus. Pellentesque ex quam, blandit ut varius ut, varius vel sapien. Quisque nec dolor a lectus porttitor vehicula. Nunc condimentum semper sem, vitae dapibus orci hendrerit vitae. Nullam cursus, elit viverra consectetur pharetra, dolor mauris sodales dolor, sit amet rutrum metus ex non est. Pellentesque eu sapien cursus, feugiat metus ut, tempor justo. Morbi et commodo risus. In hac habitasse platea dictumst. Aliquam eget consectetur metus.
+1. Conduct alignment sessions on concept and gather approvals with TACO application IT Stakeholders
+
+2. Create communication plan and materials based on pilot migration concept 
+
+3. Detailed architecture design has to be created for Network Design, Access management, Container registry,Kubernetes Clusters, storage, database, Backup, Monitoring, Logging and Alerting for the TACO application deployment
+
+4. Plan for the AKS cluster nodes and sizing depending on the application requirement  to provide high availablility, security and resilience
+
+5. Plan for migrating the monolith Application to microservices
+
+6. Create a pilot for implementation, migration, cutover and rollback concepts
+
+7. Gather approvals for migration, cut-over, rollback and communication plan
+
+
+3. Preparation
+Preparing the Azure Infrastructure for 
+
+1. Get  Access to all the team members on azure subscription and azure devops 
+
+2. Prepare the scripts for Infrastructure deployment (Infra-as-Code) using terraform modules for the azure resources
+
+3. Containerize the old application and design cluster management and scaling
+
+4. Use Helm/Helm Chart to maintain the lifecycle of the application deployment
+
+5. Develop the pipeline to Test the application, adjust and then deploy to the production enviroment
+
+4. Implementation
+Build and deploy the Infrastructure 
+
+1. Understand and Identify reference architechture
+
+2. Create a project in Azure devops and collaborate with all the teams to create the terraform and application modules
+
+3. Clusters governance, security and protection
+
+4. Implement container registry configuration Application gateway and Ingress controller for AKS
+
+5. Create Namespace for app Isolation / RBAC concept
+
+6. Check for Application remediation to be containerization ready
+
+7. Generate and build app manifest
+
+8. Build application Docker Container and unit test in dev environment 
+
+9. Deploy and configure monitoring, logging and Alerting 
+
+10. Create CI/CD pipeline to deploy infrastructure,containers and implement image update and versioning in container registry  
+
+11. Basic smoke test acceptance to be taken from the client  
+
+12. Create detailed documentation for the scripts and pipelines implemented
+
+
+
+5. Handover
+Knowledge transfer to the operation team
+
+
+1. Handover all the techinical documents and Devops Project 
+
+2. Provide knowledge transfer to service team regarding the architecture and Cluster Management and scaling
+

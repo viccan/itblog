@@ -1,18 +1,59 @@
 ---
 slug: demo-09
 date: 2010-10-05
-title: 'Lorem ipsum dolor sit amet'
-description: 'Curabitur fringilla vel purus sit amet malesuada.'
+title: 'KCNA Study Links'
+description: 'Kubernetes study links'
 published: true
 banner: './banner.png'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus sem non eros semper posuere. Quisque scelerisque non diam in fringilla. Praesent dignissim eros vel urna tincidunt pharetra. Fusce cursus, est quis vestibulum facilisis, elit diam convallis orci, eu convallis metus leo vitae massa. Mauris id nisi ut erat auctor fermentum. Sed purus nisl, hendrerit id suscipit sit amet, consectetur ut magna. Donec cursus accumsan lectus vel porta. Proin ac mollis arcu. Integer nec dictum sapien, dignissim semper dui. Quisque porta ipsum sit amet lorem feugiat tincidunt. Nam vel purus dolor. Donec semper tortor lacus, sed blandit sapien rutrum id. Fusce gravida tortor ultrices magna auctor, at bibendum est pellentesque. Vivamus porttitor ultrices varius.
+Kubernetes Components | Kubernetes
+https://kubernetes.io/docs/concepts/overview/working-with-objects/kubernetes-objects/
+https://kubernetes.io/docs/concepts/architecture/control-plane-node-communication/
+https://github.com/kubernetes/community/blob/master/governance.md#sigs
+https://www.cncf.io/people/governing-board/
+https://www.cncf.io/people/technical-oversight-committee/
+https://kubernetes.io/docs/concepts/architecture/garbage-collection/#owners-dependents
+https://kubernetes.io/docs/concepts/workloads/controllers/daemonset/%20%
+20https://blog.knoldus.com/opsinit-replicaset-vs-daemonset-in-kubernetes/
+https://kubernetes.io/docs/concepts/architecture/cri/
+https://kubernetes.io/docs/concepts/overview/working-with-objects/field-selectors/
+https://kubernetes.io/docs/concepts/workloads/pods/
+https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/
+https://kubernetes.io/docs/concepts/security/overview/
+https://kubernetes.io/docs/concepts/security/overview/#cluster
+https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
+https://kubernetes.io/docs/concepts/configuration/secret/
+https://kubernetes.io/docs/concepts/security/controlling-access/#authorization
+https://kubernetes.io/docs/concepts/overview/components/#kube-apiserver
+https://kubernetes.io/docs/concepts/overview/components/#kube-proxy
+https://kubernetes.io/docs/concepts/configuration/configmap/
+https://landscape.cncf.io/
+https://kubernetes.io/docs/concepts/containers/#container-images
+https://kubernetes.io/docs/concepts/cluster-administration/system-metrics/#metrics-in-kubernetes
+https://kubernetes.io/docs/concepts/containers/runtime-class/
+https://kubernetes.io/blog/2016/07/autoscaling-in-kubernetes/#benefits-of-autoscaling
+https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/
+https://searchitoperations.techtarget.com/tip/When-to-use-Kubernetes-operators-vs-Helm-charts
+https://helm.sh/docs/topics/charts/
+https://kubernetes.io/docs/concepts/extend-kubernetes/operator/%20%
+20https://www.redhat.com/en/topics/containers/what-is-a-kubernetes-operator
+https://kubernetes.io/docs/concepts/workloads/controllers/ttlafterfinished/
+https://kubernetes.io/docs/tasks/run-application/horizontal-pod-autoscale/#flapping
+https://kubernetes.io/docs/concepts/security/pod-security-admission/
+https://kubernetes.io/docs/reference/access-authn-authz/rbac/#api-overview
+https://blog.container-solutions.com/kubernetes-deployment-strategies#kubernetes-blue-green
+https://kubernetes.io/docs/concepts/containers/images/#image-pull-policy
+https://kubernetes.io/docs/concepts/scheduling-eviction/
+https://kubernetes.io/docs/concepts/overview/components/#kubelet
+https://kubernetes.io/docs/concepts/overview/components/#kube-proxy
+https://kubernetes.io/docs/concepts/overview/components/#kube-apiserver
+https://kubernetes.io/docs/concepts/overview/components/#kube-controller-manager
+https://kubernetes.io/docs/concepts/overview/components/#kube-controller-manager
+https://kubernetes.io/docs/concepts/overview/components/#kube-controller-manager
+https://kubernetes.io/docs/concepts/scheduling-eviction/kube-scheduler/
+https://kubernetes.io/docs/concepts/architecture/cloud-controller/
+https://kubernetes.io/docs/concepts/workloads/controllers/job/
+https://kubernetes.io/docs/reference/access-authn-authz/rbac/
+https://kubernetes.io/docs/reference/using-api/#api-groups
 
-Phasellus nulla justo, auctor in ornare sit amet, volutpat at sapien. Donec non turpis nec ligula finibus finibus quis id lorem. Vestibulum sodales ornare lorem, sed dapibus justo sagittis non. Curabitur rutrum, eros quis iaculis commodo, sem turpis blandit quam, eu egestas risus nunc quis sapien. Aliquam erat volutpat. In leo massa, pellentesque non mollis ac, tristique vitae neque. Donec nunc magna, pharetra quis iaculis sit amet, molestie non est. Sed ornare urna id molestie convallis.
-
-Cras ut nulla pellentesque, convallis orci vel, ultricies augue. Cras imperdiet magna sit amet vestibulum dictum. Maecenas ac tortor vel nisl luctus blandit. Nunc bibendum commodo aliquet. Nunc urna tellus, sagittis vitae mollis vel, venenatis et lectus. Morbi lacus felis, fringilla a feugiat eget, imperdiet ac odio. Duis tortor tellus, vulputate eget arcu eget, pulvinar porta odio.
-
-Cras tincidunt, massa vel pulvinar mollis, purus ex aliquam justo, at blandit turpis metus sit amet felis. Cras at nibh odio. Nulla ultrices metus sed est porta bibendum. Quisque efficitur nisl eget odio fringilla mollis. Vivamus vel lectus sem. Sed sit amet nisi aliquet, suscipit quam at, congue lacus. Pellentesque volutpat, ante ac mollis iaculis, est enim eleifend quam, id molestie est felis in sem. Nullam ac rutrum tortor, sed venenatis lectus. Nullam quis imperdiet urna. Integer mauris mi, tincidunt sit amet finibus eget, posuere eu leo. Fusce sodales convallis convallis. Pellentesque at augue id nulla convallis aliquam et id tellus. Praesent non nibh viverra odio mattis congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
-
-Curabitur aliquam hendrerit imperdiet. Sed fringilla dui velit, et suscipit diam bibendum vitae. Nulla eu ultricies tellus. Pellentesque ex quam, blandit ut varius ut, varius vel sapien. Quisque nec dolor a lectus porttitor vehicula. Nunc condimentum semper sem, vitae dapibus orci hendrerit vitae. Nullam cursus, elit viverra consectetur pharetra, dolor mauris sodales dolor, sit amet rutrum metus ex non est. Pellentesque eu sapien cursus, feugiat metus ut, tempor justo. Morbi et commodo risus. In hac habitasse platea dictumst. Aliquam eget consectetur metus.

@@ -1,18 +1,43 @@
 ---
 slug: demo-02
 date: 2018-01-01
-title: 'Please, Tell Me More'
+title: 'Learning Docker'
 description: 'Sed vehicula mauris vel felis faucibus placerat. Quisque sed justo quis tellus aliquam tincidunt. Vestibulum sit amet ante sit amet nibh accumsan viverra.'
 published: true
 banner: './banner.png'
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi rhoncus sem non eros semper posuere. Quisque scelerisque non diam in fringilla. Praesent dignissim eros vel urna tincidunt pharetra. Fusce cursus, est quis vestibulum facilisis, elit diam convallis orci, eu convallis metus leo vitae massa. Mauris id nisi ut erat auctor fermentum. Sed purus nisl, hendrerit id suscipit sit amet, consectetur ut magna. Donec cursus accumsan lectus vel porta. Proin ac mollis arcu. Integer nec dictum sapien, dignissim semper dui. Quisque porta ipsum sit amet lorem feugiat tincidunt. Nam vel purus dolor. Donec semper tortor lacus, sed blandit sapien rutrum id. Fusce gravida tortor ultrices magna auctor, at bibendum est pellentesque. Vivamus porttitor ultrices varius.
+Links
+Cheatsheet for Docker CLI & Dockerfile
+https://developers.redhat.com/promotions/docker-cheatsheet
 
-Phasellus nulla justo, auctor in ornare sit amet, volutpat at sapien. Donec non turpis nec ligula finibus finibus quis id lorem. Vestibulum sodales ornare lorem, sed dapibus justo sagittis non. Curabitur rutrum, eros quis iaculis commodo, sem turpis blandit quam, eu egestas risus nunc quis sapien. Aliquam erat volutpat. In leo massa, pellentesque non mollis ac, tristique vitae neque. Donec nunc magna, pharetra quis iaculis sit amet, molestie non est. Sed ornare urna id molestie convallis.
 
-Cras ut nulla pellentesque, convallis orci vel, ultricies augue. Cras imperdiet magna sit amet vestibulum dictum. Maecenas ac tortor vel nisl luctus blandit. Nunc bibendum commodo aliquet. Nunc urna tellus, sagittis vitae mollis vel, venenatis et lectus. Morbi lacus felis, fringilla a feugiat eget, imperdiet ac odio. Duis tortor tellus, vulputate eget arcu eget, pulvinar porta odio.
+Video Courses
+Following two pluralsight courses for docker fundamentals and advanced topics (not specificly for the exam, but you will be learning docker concepts):
 
-Cras tincidunt, massa vel pulvinar mollis, purus ex aliquam justo, at blandit turpis metus sit amet felis. Cras at nibh odio. Nulla ultrices metus sed est porta bibendum. Quisque efficitur nisl eget odio fringilla mollis. Vivamus vel lectus sem. Sed sit amet nisi aliquet, suscipit quam at, congue lacus. Pellentesque volutpat, ante ac mollis iaculis, est enim eleifend quam, id molestie est felis in sem. Nullam ac rutrum tortor, sed venenatis lectus. Nullam quis imperdiet urna. Integer mauris mi, tincidunt sit amet finibus eget, posuere eu leo. Fusce sodales convallis convallis. Pellentesque at augue id nulla convallis aliquam et id tellus. Praesent non nibh viverra odio mattis congue. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;
+Docker fundamental consisting on 5 docker courses and on top (optional) courses about using specific program language to develop application with docker
+docker-fundamentals-for-developers
+https://app.pluralsight.com/paths/skill/docker-fundamentals-for-developers
+This course takes you through the fundamentals of using Docker to manage your containerization needs
+managing-docker-in-production
+https://app.pluralsight.com/paths/skill/managing-docker-in-production
 
-Curabitur aliquam hendrerit imperdiet. Sed fringilla dui velit, et suscipit diam bibendum vitae. Nulla eu ultricies tellus. Pellentesque ex quam, blandit ut varius ut, varius vel sapien. Quisque nec dolor a lectus porttitor vehicula. Nunc condimentum semper sem, vitae dapibus orci hendrerit vitae. Nullam cursus, elit viverra consectetur pharetra, dolor mauris sodales dolor, sit amet rutrum metus ex non est. Pellentesque eu sapien cursus, feugiat metus ut, tempor justo. Morbi et commodo risus. In hac habitasse platea dictumst. Aliquam eget consectetur metus.
+Certifications
+The official professional certification program for Docker technologies is the Docker Certified Associate (DCA) exam.
+
+The DCA exam is of 90 mins and consists of 55 questions (11-13 Multiple-Choice and 42-44 Discrete Option Multiple-Choice). In Discrete Option Multiple-Choice, options are randomly shown at a time for the examinee to choose a YES or a NO.
+
+When studying for the DCA exam, you should plan it well to make sure that no important topics is missed. Following are some link to study guide:
+
+Docker Certified Associate Study Guide
+
+Docker Certified Associate Study plan (KodeKloud)
+https://kodekloud.com/blog/docker-certified-associate-guide/#:~:text=The%20DCA%20Certification%20is%20awarded%2cEnterprise%20Edition%20and%20Docker%20Swarm.
+
+A list of Academies/Companies providing Docker courses and exam preparation: 
+Docker Certified Associate by ...
+https://hackr.io/blog/best-docker-certification
+
+A github repo for DCA exam preparation
+Docker Certified Associate Preparation Guide - Github/Evalle/DCA
+https://github.com/Evalle/DCA
